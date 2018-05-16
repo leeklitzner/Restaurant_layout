@@ -10,6 +10,13 @@ header {
   position: absolute;
 }
 
+/*#logo {
+  display: flex;
+  justify-content: center;
+  size: 100%;
+  opacity: 0.4;
+}*/
+
 .top-of-page {
   display: flex;
   justify-content: space-between;
@@ -57,4 +64,19 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.description {
+  color: red;
+  display: block;
+}
+
+.price {
+  float: right;
+}
+
+.menu-col {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
 }
